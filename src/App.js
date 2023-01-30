@@ -14,11 +14,11 @@ function App() {
       {/* <NavBar /> */}
       <Routes>
         <Route element={<LoggedInRoute />}>
-          <Route path="/" element={<LogRegPage />} exact />
+          <Route path="/" element={<LogRegPage />} />
         </Route>
         
         <Route element={<ProtectedRoute />}>
-          <Route path="/profile" element={<ProfilePage />} exact />
+          <Route path="/profile" element={<ProfilePage />} />
         </Route>
       </Routes>
     </>
