@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 // import logo from './logo.svg';
 import LogRegPage from './Login_register.jsx';
 import ProfilePage from './Profile.jsx';
