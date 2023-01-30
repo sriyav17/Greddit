@@ -9,7 +9,7 @@ export default function Login(props) {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        if(username == 'admin' && password == 'admin')
+        if(username === 'admin' && password === 'admin')
         {
             localStorage.setItem("username", username);
             localStorage.setItem("isLoggedIn", true);

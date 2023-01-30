@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { MDBCol, MDBContainer, MDBRow, MDBCard, MDBCardText, MDBCardBody, MDBCardImage, MDBBtn, MDBTypography } from 'mdb-react-ui-kit';
-import { CgEnter } from 'react-icons/cg';
 import { useNavigate } from 'react-router-dom';
 // import { roundedTop } from 'mdb-react-ui-kit/dist/css/mdb.module.css';
 // import { Navigate } from 'react-router-dom';
